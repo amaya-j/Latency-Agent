@@ -100,15 +100,6 @@ The agent learns to adapt batch size based on traffic regime.
 
 ---
 
-## Reproducibility
-
-- Deterministic random seeds supported  
-- Hyperparameters configurable via CLI  
-- Results saved as CSV  
-- Plotting scripts included (CDFs, percentile comparisons)  
-
----
-
 ## Experiments to Try
 
 - Static vs adaptive batching comparison  
@@ -120,9 +111,7 @@ The agent learns to adapt batch size based on traffic regime.
 
 ## Future Extensions
 
-- Replace tabular Q-learning with DQN  
-- Introduce deeper order book simulation  
-- Model NIC interrupt coalescing  
+- Introduce deeper order book simulation   
 - Multi-agent congestion control  
 - Kernel-level timestamp integration  
 
