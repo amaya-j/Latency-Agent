@@ -70,8 +70,8 @@ pip install -e ".[dev]"
 Run static batching policies:
 
 ```bash
-python scripts/run_baseline.py --batch-size 1
-python scripts/run_baseline.py --batch-size 8
+python scripts/run_baseline.py 
+python scripts/run_baseline.py 
 ```
 
 Outputs:
@@ -84,7 +84,7 @@ Outputs:
 ## Training the Agent
 
 ```bash
-python scripts/train_agent.py --episodes 200
+python scripts/train_agent.py 
 ```
 
 Example output:
