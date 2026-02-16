@@ -71,7 +71,6 @@ Run static batching policies:
 
 ```bash
 python scripts/run_baseline.py 
-python scripts/run_baseline.py 
 ```
 
 Outputs:
